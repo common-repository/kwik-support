@@ -1,0 +1,112 @@
+#kwik_support {
+	font-family:"Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+}
+#kwik_support #new_message {
+	width: 100%;
+	margin-top: 10px;
+}
+.kwik_support_message_container form{display:none;}
+#kwik_support .kwik_support_messages .kwik_support_message_container .reply_message{color:#000;padding-left:4%;}
+.kwik_support_message_container .reply_message{background:url('images/reply.gif') left 3px no-repeat;}
+.kwik_support_message_container .reply_form{background:url('images/reply.gif') left 13px no-repeat;}
+#kwik_support #kwik_support_new_message_text {
+	width: 99%;
+	margin-bottom: 1em;
+}
+#kwik_support .kwik_support_new_reply_text {
+	width: 95%;
+	margin:10px 0;
+	margin-left:4%;
+	height:120px;
+}
+#kwik_support_messages_viewport{padding-bottom:3px;}
+.kwik_support_message_container .message_reply{margin-left:4%;color:#060;}
+#kwik_support #kwik_support_load_newer_messages, #kwik_support_load_older_messages {
+	text-align: center;
+	margin-top: 1em;
+}
+#kwik_support #kwik_support_messages_viewport {
+	overflow: hidden;
+}
+#kwik_support .kwik_support_message {
+	padding-top: 1em;
+}
+#kwik_support .kwik_support_message .kwik_support_user {
+	font-size: 12px;
+	color: #464646;
+	text-shadow: #fff 0px 1px 0px;
+	font-weight: bold;
+	line-height: 1;
+	padding: 7px 0;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius-bottomright: 0;
+	-webkit-border-bottom-right-radius: 0;
+	-moz-border-radius-bottomleft: 0;
+	-webkit-border-bottom-left-radius: 0;
+	background: url(../../../wp-admin/images/blue-grad.png);
+	background-repeat:repeat-x;
+}
+#kwik_support .kwik_support_message .current_user {
+	background: url(../../../wp-admin/images/gray-grad.png);
+	background-repeat: repeat-x;
+}
+#kwik_support .kwik_support_message .kwik_support_user_login {
+	padding-left: 9px;
+}
+#kwik_support .kwik_support_messages .kwik_support_message_container {
+	background: #f9f9f9;
+	padding: 5px 10px;
+	border: 1px solid #e3e3e3;
+	border-bottom: 0;
+	border-top: 0;
+	color:#555;
+}
+#kwik_support .kwik_support_messages .kwik_support_message_container .kwik_support_message_text {
+	font-size:12px;
+	line-height: 1.4em;
+}
+.kwik_support_reply_link{cursor:pointer;padding-left:10px;display:none;}
+
+
+
+
+
+
+#kwik_support .kwik_support_messages .kwik_support_message_container .kwik_support_message_time {
+	font-size:12px;
+	padding-left: 9px;
+	line-height: 140%;
+	float: right;
+	color: #ccc;
+	padding-right: 9px;
+visibility:hidden;
+}
+#kwik_support .kwik_support_messages .kwik_support_message_container:hover .kwik_support_message_time {
+visibility:visible;
+}
+#kwik_support .kwik_support_messages .kwik_support_separator {
+	height: 1px;
+	background: #e3e3e3;
+	border-bottom: 1px solid #fff;
+	border-left: 1px solid #e3e3e3;
+	border-right: 1px solid #e3e3e3;
+}
+#kwik_support .kwik_support_messages .kwik_support_round_bottom {
+	margin-top: -4px;
+	border: 1px solid #e3e3e3;
+	border-top: 0;
+	height: 6px;
+	background: #f9f9f9;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius-topright: 0;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topleft: 0;
+	-webkit-border-top-left-radius: 0;
+}
+#kwik_support .kwik_support_button-disabled {
+	cursor: default !important;
+}
